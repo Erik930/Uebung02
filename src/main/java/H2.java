@@ -15,9 +15,11 @@ public class H2 {
 	        
 	        System.out.print("Bitte gebe einen Wert für k ein: ");
 	        int k = scanner.nextInt();
+	        // int i,j,k werden von Nutzer Deklariert und System gescannt
 	        
 	        int min;
 	        int max;
+	        
 	        
 	        if (i < j && i < k) {
 	            min = i;
@@ -26,7 +28,7 @@ public class H2 {
 	        } else {
 	            min = k;
 	        }
-
+	        // Definition von min durch testen, welcher Wert der kleinste ist
 	        if (i > j && i > k) {
 	            max = i;
 	        } else if (j > i && j > k) {
@@ -34,7 +36,9 @@ public class H2 {
 	        } else {
 	            max = k;
 	        }
+	        // Definition von max durch testen, welcher Wert der groesste ist
 	        System.out.println("Min: " + min);
 	        System.out.println("Max: " + max);
+	        // aussprucken von vorher definiertem min und max
 	 }
 }
