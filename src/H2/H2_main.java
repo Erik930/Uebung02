@@ -1,20 +1,22 @@
-package H2;
+package h2;
 
 import java.util.Scanner;
 
 public class H2_main {
 	 public static void main(String[] args) {
 	    	
-	    	Scanner scanner = new Scanner(System.in);
+	    	Scanner s1 = new Scanner(System.in);
+	    	Scanner s2 = new Scanner(System.in);
+	    	Scanner s3 = new Scanner(System.in);
 	    	
 	        System.out.print("Bitte gebe einen Wert für j ein: ");
-	        int j= scanner.nextInt(); 
+	        int j= s1.nextInt(); 
 	    	
 	        System.out.print("Bitte gebe einen Wert für i ein: ");
-	        int i = scanner.nextInt();
+	        int i = s2.nextInt();
 	        
 	        System.out.print("Bitte gebe einen Wert für k ein: ");
-	        int k = scanner.nextInt();
+	        int k = s3.nextInt();
 	        // int i,j,k werden von Nutzer Deklariert und System gescannt
 	        
 	        int min;

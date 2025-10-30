@@ -1,16 +1,18 @@
-package H3;
+package h3;
 
 import java.util.Scanner;
 
 public class H3_main {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner s1 = new Scanner(System.in);
     	
         System.out.print("Bitte gebe einen Wert für i ein: ");
-        int i= scanner.nextInt(); 
+        int i= s1.nextInt(); 
+        
+        Scanner s2 = new Scanner(System.in);
         
         System.out.print("Bitte gebe einen Wert für j ein: ");
-        int j= scanner.nextInt(); 
+        int j= s2.nextInt(); 
         
         int k = -10;
 
