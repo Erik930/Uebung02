@@ -18,7 +18,7 @@ public class P3_main {
         
         System.out.print("Bitte gebe einen Wert für k ein: ");
         int k= s3.nextInt();
-
+// challo
         
         if (i < j) {
          System.out.println("A");
